@@ -53,7 +53,12 @@
       <label for="password">Password:</label>
       <input type="password" id="password" name="password" placeholder="Enter your password" required>
 
-      <button type="submit">Request Deletion</button>
+      <a href="mailto:your-developer-email@example.com?subject=Account Deletion Request&body=Please provide the following details:%0D%0A%0D%0AUsername: %0D%0AEmail: %0D%0AReason: " 
+       target="_blank">
+       <button>Request Deletion</button>
+      </a>
+
+<!--       <button type="submit">Request Deletion</button> -->
     </form>
   </div>
   <script src="script.js"></script>
